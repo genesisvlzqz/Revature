@@ -1,0 +1,11 @@
+package com.revature;
+
+public class Launcher {
+	public static void main(String[] args) {
+		String[] days = {"sunday","monday","tuesday","wednesday",
+				"thursday","friday","saturday"};
+		for(String day : days) {   
+			System.out.println(day);
+		}
+	}
+}

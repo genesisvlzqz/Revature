@@ -1,0 +1,37 @@
+package com.revature;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+		System.out.println("====================(Common Primitives)");
+		
+		int i = 500000;
+		long l = 5000000000000000000L;
+		System.out.println("the value of my int is: " + i);
+		System.out.println("The value of the sum is: " + (i+l));
+		
+		char c = 'c';
+		char c3 = 15000;
+		
+		System.out.println(c);
+		System.out.println(c3);
+		System.out.println(c + c3);
+		
+		double d = 2.5678;
+		System.out.println("the value of my other double: " + d);
+		
+		double d2 = 2;
+		System.out.println(d2 + " is the value of my other double");
+		
+		boolean bool = true;
+		boolean bool2 = 5>10;
+		System.out.println(bool);
+		System.out.println(bool2);
+		
+		if (bool) {
+			System.out.println("its true");
+		} else {
+			System.out.println("its false");
+		}
+	}
+}

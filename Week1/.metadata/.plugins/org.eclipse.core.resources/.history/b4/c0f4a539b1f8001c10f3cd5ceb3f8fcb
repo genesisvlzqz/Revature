@@ -1,0 +1,18 @@
+package com.revature;
+
+public class Launcher {
+	public static void main(String[] args) {
+		String[] days = {"Sunday","Monday","Tuesday","Wednesday",
+				"Thursday","Friday","Saturday"};
+		for(String day : days) {   
+			String temp;
+			System.out.println(day);
+			if(day.charAt(0)=='T') {
+				System.out.println("Go to the Gym.");
+			} else {
+				System.out.println("stay home");
+			}
+			
+		}
+	}
+}

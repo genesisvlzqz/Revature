@@ -1,0 +1,23 @@
+package com.revature.models;
+
+public class Person {
+	public String name;
+	public String hairColor;
+	public String gender;
+	
+	public String sleep(String words) {
+		return "Person sleeptalks " + words;
+	}
+	
+	public Person() {
+		this.name = "Daniel";
+		this.hairColor = "Black";
+		this.gender = "Male";
+	}
+	Person(String _name, String _haircolor, String _gender){
+		this.name = _name;
+		this.hairColor = _haircolor;
+		this.gender = _gender;
+		
+	}
+}

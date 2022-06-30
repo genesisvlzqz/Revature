@@ -1,0 +1,13 @@
+package com.revature;
+//ST wont read this comment
+//packages always go first in a class besides comments
+
+public class Launcher {
+	
+	public static void main(String[] args) {
+		//the code inside the method = method body
+		System.out.println("Hello World! Hello Java!");
+		//syso + ctrl + spacebar
+
+	}
+} 

@@ -1,0 +1,27 @@
+package com.revature;
+
+import com.revature.models.Person;
+import com.revature.models.Pirate;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+		
+		Person person1 = new Person();
+		System.out.println(person1.name);
+		System.out.println(person1.hairColor);
+		System.out.println(person1.gender);
+		System.out.println(person1.sleep("Let me sleep"));
+
+		Pirate blackBeard = new Pirate();
+		System.out.println(blackBeard.name);
+		System.out.println(blackBeard.dubloon);
+		
+		Pirate redBeard = new Pirate("Red Beard","Red","NB",2000);
+		
+		System.out.println(redBeard.name);
+		System.out.println(redBeard.sleep("Yerrr"));
+		System.out.println(redBeard.argggg());
+	}
+
+}

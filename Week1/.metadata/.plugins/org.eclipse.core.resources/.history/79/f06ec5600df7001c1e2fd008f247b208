@@ -1,0 +1,22 @@
+package com.revature;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+		System.out.println("====================(Common Primitives)");
+		
+		int i = 500000;
+		long l = 500000000000000000000L;
+		System.out.println("the value of my int is: " + i);
+		System.out.println("The value of the sum is: " + (i+l));
+		
+		char c = 'c';
+		char c3 = 15000;
+		
+		System.out.println(c);
+		System.out.println(c3);
+		System.out.println(c + c3);
+	
+	
+	}
+}
